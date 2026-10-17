@@ -1,0 +1,64 @@
+body {
+    /* Video 1 */
+    background: pink;   /* Color de fondo*/
+    color: seashell;   /* Color de letras*/
+    
+    /*Video 2*/
+    margin:2; /* margen */
+    padding:2; /*relleno*/
+}
+    /* Selectores */
+    h1, h2, h3{
+        color: aqua;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    h1{
+        font-size: 50px; /* tamaño de la fuente */
+        text-align:center;
+        background: violet;
+
+    }
+    h2{
+         text-align:center
+    }
+    a{
+        color:blueviolet;  /* color de la fuente */
+        font-weight: bold;
+    }
+    /*Video 3*/
+    /*Unidades de medida*/
+    p{
+        font-size: 2em; /*tamaño letras parrafos*/
+        font-family: "Times New Roman";
+    }
+    div{
+        background: palevioletred;
+        color: antiquewhite;
+        width: 250px;
+        border: 10px solid wheat;
+        display: inline-block;
+        margin: 20px 50px;
+    }
+    /*Video 4*/
+    /*Unidades de color*/
+    /*h1{
+        color: rbg(10%, 20%, 30%);
+        rgba= opacidad 
+        
+    }*/
+    h1{
+        color: rgba(blueviolet);
+    }
+    img{
+        display: block;
+        margin: 0 auto;
+        box-shadow: 5px 5px 5px black;
+    }
+    form {
+        width: 25%;
+        border: 1px solid black;
+        margin: 20px;
+        padding: 20px;
+    }
+
